@@ -5,6 +5,9 @@
 ```sh
 docker build -t 42docker .
 docker run -it --rm -v $(pwd):/libasm 42docker
+# or
+docker pull solareenlo/42docker
+docker run -it --rm -v $(pwd):/libasm solareenlo/42docker
 ```
 
 ### valgrind
