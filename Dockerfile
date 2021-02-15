@@ -12,5 +12,6 @@ RUN apt-get update && \
 
 COPY dotfiles/.vimrc /root/.vimrc
 COPY assembler/asm /bin/asm
+COPY assembler/rmasm /bin/rmasm
 
 CMD /bin/bash
