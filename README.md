@@ -19,6 +19,7 @@ valgrind --leak-check=full ./a.out
 ```sh
 vim hello.asm
 asm hello
+rmasm hello
 ```
 
 ### minishell
