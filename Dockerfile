@@ -11,6 +11,7 @@ RUN apt-get update && \
 	bsdmainutils
 
 COPY dotfiles/.vimrc /root/.vimrc
+COPY dotfiles/.bashrc /root/.bashrc
 COPY assembler/asm /bin/asm
 COPY assembler/rmasm /bin/rmasm
 
