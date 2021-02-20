@@ -9,9 +9,9 @@ RUN apt-get update && \
 		nasm \
 		vim \
 		bsdmainutils \
+		python2 \
 		python3 \
-		python3-pip && \
-	pip3 install termcolor
+		python3-pip
 
 COPY dotfiles/.vimrc /root/.vimrc
 COPY dotfiles/.bashrc /root/.bashrc
