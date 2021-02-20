@@ -8,7 +8,10 @@ RUN apt-get update && \
 	strace \
 	nasm \
 	vim \
-	bsdmainutils
+	bsdmainutils \
+	python3 \
+	python3-pip \
+	pip3 install termcolor
 
 COPY dotfiles/.vimrc /root/.vimrc
 COPY dotfiles/.bashrc /root/.bashrc
