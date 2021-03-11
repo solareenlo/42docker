@@ -6,6 +6,7 @@ LABEL "https://github.com/solareenlo/42docker"
 RUN apt-get update && \
 	apt-get upgrade -y && \
 	DEBIAN_FRONTEND=noninteractive apt-get install -y \
+		git \
 		build-essential \
 		valgrind \
 		strace \
