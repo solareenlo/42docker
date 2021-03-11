@@ -14,8 +14,7 @@ docker run -it --rm -v $(pwd):/code solareenlo/42docker
 
 ### norminette
 ```sh
-docker run -it --rm -v $(pwd):/code solareenlo/42docker
-norminette
+docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette
 ```
 
 ### valgrind
