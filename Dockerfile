@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 LABEL "maintainer"="solareenlo <solareenlo@protonmail.com>"
-LABEL "https://github.com/solareenlo/42docker"
+LABEL "repository"="https://github.com/solareenlo/42docker"
 
 RUN apt-get update && \
 	apt-get upgrade -y && \
