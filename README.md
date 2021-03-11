@@ -36,5 +36,5 @@ rmasm hello
 strace -o trace.txt -f bash -c "<commandline>"
 ```
 
-### License
+## License
 [GLWTPL](./LICENSE)
