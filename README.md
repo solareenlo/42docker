@@ -1,7 +1,7 @@
 # 42docker
 
 ## Usage
-### container
+### Image and Container
 ```sh
 git clone git@github.com:solareenlo/42docker.git
 cd 42docker
@@ -15,12 +15,12 @@ docker rmi 42docker:latest
 docker rmi solareenlo/42docker:latest
 ```
 
-### norminette
+### Norminette
 ```sh
 docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette
 ```
 
-### valgrind
+### Valgrind
 ```sh
 valgrind --leak-check=full ./a.out
 ```
