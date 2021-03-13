@@ -40,3 +40,6 @@ strace -o trace.txt -f bash -c "<commandline>"
 
 ## License
 [GLWTPL](./LICENSE)
+
+## References
+- [42School/norminette](https://github.com/42School/norminette)
