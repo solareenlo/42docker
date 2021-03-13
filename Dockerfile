@@ -25,9 +25,9 @@ COPY assembler/rmasm /bin/rmasm
 
 WORKDIR /usr/src/norminette
 
-RUN git clone --depth 1 https://github.com/42School/norminette .
-RUN pip3 install -r requirements.txt
-RUN python3 setup.py install
+RUN git clone --depth 1 https://github.com/42School/norminette . && \
+	pip3 install -r requirements.txt && \
+	python3 setup.py install
 
 WORKDIR /code
 
