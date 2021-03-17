@@ -18,6 +18,10 @@ docker rmi solareenlo/42docker:latest
 ### Norminette
 ```sh
 docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette
+docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -v
+docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -d
+docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -dd
+docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette ft_isdigit.c
 ```
 
 ### Valgrind
