@@ -24,6 +24,8 @@ docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -dd
 docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette ft_isdigit.c
 ```
 
+References: [42School/norminette](https://github.com/42School/norminette)
+
 ### Valgrind
 ```sh
 valgrind --leak-check=full ./a.out
@@ -44,6 +46,3 @@ strace -o trace.txt -f bash -c "<commandline>"
 
 ## License
 [GLWTPL](./LICENSE)
-
-## References
-- [42School/norminette](https://github.com/42School/norminette)
