@@ -24,6 +24,20 @@ docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -dd
 docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette ft_isdigit.c
 ```
 
+#### Version up
+```sh
+docker run -it solareenlo/42docker bash
+cd /usr/src/norminette
+git pull
+pip install -r requirements.txt
+python3 setup.py install
+exit
+docker commit solareenlo/42docker
+docker push solareenlo/42docker
+docker container prune
+docker image prune
+```
+
 References: [42School/norminette](https://github.com/42School/norminette)
 
 ### Valgrind
