@@ -46,7 +46,7 @@ valgrind --leak-check=full --show-leak-kinds=all ./a.out
 ```
 
 ### nm
-``sh
+```sh
 nm -u ./a.out
 ```
 
