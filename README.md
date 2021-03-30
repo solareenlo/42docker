@@ -42,7 +42,12 @@ References: [42School/norminette](https://github.com/42School/norminette)
 
 ### Valgrind
 ```sh
-valgrind --leak-check=full ./a.out
+valgrind --leak-check=full --show-leak-kinds=all ./a.out
+```
+
+### nm
+``sh
+nm -u ./a.out
 ```
 
 ### libasm
