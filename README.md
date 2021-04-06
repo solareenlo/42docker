@@ -29,7 +29,7 @@ docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette ft_isdigit.c
 docker run -it solareenlo/42docker bash
 cd /usr/src/norminette
 git pull
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 python3 setup.py install
 exit
 docker commit solareenlo/42docker
