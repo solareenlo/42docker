@@ -6,10 +6,10 @@
 git clone git@github.com:solareenlo/42docker.git
 cd 42docker
 docker build -t 42docker .
-docker run -it --rm -v $(pwd):/code 42docker
+docker run -it --rm -v $PWD:/code 42docker
 # or
 docker pull solareenlo/42docker
-docker run -it --rm -v $(pwd):/code solareenlo/42docker
+docker run -it --rm -v $PWD:/code solareenlo/42docker
 
 docker rmi 42docker:latest
 docker rmi solareenlo/42docker:latest
@@ -17,11 +17,11 @@ docker rmi solareenlo/42docker:latest
 
 ### Norminette
 ```sh
-docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette
-docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -v
-docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -d
-docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette -dd
-docker run -it --rm -v $(pwd):/code solareenlo/42docker norminette ft_isdigit.c
+docker run -it --rm -v $PWD:/code solareenlo/42docker norminette
+docker run -it --rm -v $PWD:/code solareenlo/42docker norminette -v
+docker run -it --rm -v $PWD:/code solareenlo/42docker norminette -d
+docker run -it --rm -v $PWD:/code solareenlo/42docker norminette -dd
+docker run -it --rm -v $PWD:/code solareenlo/42docker norminette ft_isdigit.c
 ```
 
 #### Version up
