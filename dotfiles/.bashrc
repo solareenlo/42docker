@@ -98,4 +98,4 @@ fi
 #    . /etc/bash_completion
 #fi
 
-alias valgrind='valgrind --leak-check=full --show-leak-kinds=all ./a.out'
+alias valgrind='valgrind --leak-check=full --show-leak-kinds=all'
