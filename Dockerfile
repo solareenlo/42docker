@@ -13,6 +13,7 @@ RUN apt-get update && \
 		nasm \
 		vim \
 		bsdmainutils \
+		clang \
 		python2 \
 		python3 \
 		python3-pip && \
