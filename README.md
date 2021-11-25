@@ -1,4 +1,6 @@
-# 42docker
+# [42docker](https://github.com/solareenlo/42docker)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/solareenlo/42docker/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/solareenlo/42docker)
 
 ## Usage
 ### Image and Container
