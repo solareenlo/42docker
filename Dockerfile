@@ -14,6 +14,7 @@ RUN apt-get update && \
 		vim \
 		bsdmainutils \
 		clang \
+		lcov \
 		python2 \
 		python3 \
 		python3-pip && \
