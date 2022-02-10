@@ -17,6 +17,11 @@ docker rmi 42docker:latest
 docker rmi solareenlo/42docker:latest
 ```
 
+### Run Container
+```sh
+docker run --rm -it -p '127.0.0.1:6667:6667' -v $PWD:/code solareenlo/42docker
+```
+
 ### Norminette
 ```sh
 docker run -it --rm -v $PWD:/code solareenlo/42docker norminette
